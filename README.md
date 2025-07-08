@@ -35,9 +35,9 @@ Set the following environment variables before running the tool:
 Pipe a git diff to the tool and specify the provider:
 
 ```sh
-git diff | ./ai-review --provider=gemini
+git diff | ./ai-review-bin --provider=gemini
 # or
-git diff | ./ai-review --provider=openai
+git diff | ./ai-review-bin --provider=openai
 ```
 
 - The tool will analyze the diff and post a review comment to the specified GitHub PR.
